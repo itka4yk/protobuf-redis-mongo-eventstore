@@ -1,0 +1,11 @@
+{
+  "name": "client-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "google-protobuf": "^3.6.1",
+    "protobufjs": "^6.8.8",
+    "redis": "^2.8.0"
+  }
+}
