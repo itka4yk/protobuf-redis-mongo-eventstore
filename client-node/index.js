@@ -18,7 +18,7 @@ rl.on('line', function (line) {
 
     const errMsg = events.verify(payload);
     if (errMsg)
-      throw Error(errMsg);
+      throw new Error(errMsg);
     const message = events.create(payload);
     const buffer = events.encode(message).finish();
     client.publish('messages', buffer);
